@@ -10,7 +10,6 @@ Welcome to my portfolio! This project is a showcase of the various web developme
 - [Installation](#installation)
 - [Usage](#usage)
 - [Deployment](#deployment)
-- [Projects](#projects)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)

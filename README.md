@@ -86,27 +86,6 @@ This project can be deployed on any server. The recommended method is to use **P
     - Ensure that the `index.html` file is served correctly.
     - If using React Router, set up proper redirection to `index.html`.
 
-## Projects
-
-The portfolio currently showcases the following projects:
-
-1. **Holiday-ify**
-   - **Description**: A web app that creates personalized holiday playlists based on your Spotify data.
-   - **Technologies Used**: `PHP`, `JavaScript`, `SQL`, `Rest-API`
-   - **Link**: [Holiday-ify](https://holidayify.aight.fun)
-
-2. **[Project 2 Name]**
-   - **Description**: Brief description of the project.
-   - **Technologies Used**: `React`, `CSS`
-   - **Link**: [Project 2 Link](https://example.com)
-
-3. **[Project 3 Name]**
-   - **Description**: Brief description of the project.
-   - **Technologies Used**: `Node.js`, `Express`
-   - **Link**: [Project 3 Link](https://example.com)
-
-...Add more projects as needed.
-
 ## Contributing
 
 Contributions are welcome! If you have suggestions or find any issues, please open an issue or a pull request in this repository.

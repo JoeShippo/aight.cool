@@ -1,6 +1,8 @@
 import React from 'react';
 import Hero from './components/Hero';
 import ProjectCard from './components/Card';
+import AboutSection from './components/AboutSection';
+
 import Footer from './components/Footer';
 
 import holidayifyImage from './assets/holidayify.webp'; // Adjust the path relative to the component
@@ -62,6 +64,7 @@ function App() {
         </div>
         
       </section>
+      <AboutSection /> {/* New About Section */}
       <Footer />
     </div>
   );

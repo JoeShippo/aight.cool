@@ -58,14 +58,14 @@ const AboutSection = () => {
                     As mentioned
                 </Typography>
                 <Typography variant="h2" className="text-4xl md:text-5xl font-bold mt-2 mb-6">
-                    I'm is Joe
+                    I'm Joe
                 </Typography>
                 <Typography variant="paragraph" color="gray" className="mb-2">
                     I'm a web and software developer with a passion for creating interactive and user-friendly applications.
                     I have experience in various technologies and enjoy building cool stuff.
                 </Typography>
                 <Typography variant="paragraph" color="gray" className="mb-2">
-                    Sometimes if you're lucky, you'll see me on a run, drinking a beer, reading a book, reading Waitrose's Weekend Newspaper or writing some nonsense.
+                    Sometimes if you're lucky, you'll see me on a run, drinking a beer, reading a book or Waitrose's Weekend Newspaper or writing some nonsense.
                 </Typography>
                 <div className="flex flex-col md:flex-row">
                     {/* Things I Know */}

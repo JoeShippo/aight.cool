@@ -44,7 +44,7 @@ function App() {
     {
       title: 'aight.fun',
       description: 'My portfolio... seems rude to not talk about it.',
-      technologies: ['React', 'GIT'],
+      technologies: ['React', 'CSS', 'Tailwind & Material Tailwind', 'GIT'],
       link: 'https://aight.fun',
       imageUrl: images.portfolio,
     },

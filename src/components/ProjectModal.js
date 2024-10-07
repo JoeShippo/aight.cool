@@ -40,7 +40,10 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
                         <div className="flex items-center justify-between">
                             <DialogHeader className="flex flex-col items-start p-0 mb-4">
                                 {" "}
-                                <Typography className="" variant="h4">
+                                <span className="px-2 py-1 text-xs font-medium text-white tealBG rounded-full">
+                                    {project.status}
+                                </span>
+                                <Typography className="mt-2" variant="h4">
                                     {project.title}
                                 </Typography>
                             </DialogHeader>

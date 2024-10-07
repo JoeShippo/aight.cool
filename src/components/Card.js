@@ -15,7 +15,7 @@ const truncateText = (text, wordLimit) => {
     : text;
 };
 
-const ProjectCard = ({ title, description, technologies, link, imageUrl }) => {
+const ProjectCard = ({ title, description, technologies, link, imageUrl, status }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const handleOpenModal = () => setIsModalOpen(true);
@@ -67,7 +67,7 @@ const ProjectCard = ({ title, description, technologies, link, imageUrl }) => {
       <ProjectModal
         isOpen={isModalOpen}
         onClose={handleCloseModal}
-        project={{ title, description, technologies, link, imageUrl }}
+        project={{ title, description, technologies, link, imageUrl, status }}
       />
     </>
   );

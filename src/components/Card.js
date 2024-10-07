@@ -31,7 +31,7 @@ const ProjectCard = ({ title, description, technologies, link, imageUrl, status 
         >
           <img
             src={imageUrl}
-            alt="card-image"
+            alt={title}
             className="h-full w-full object-cover"
           />
         </CardHeader>

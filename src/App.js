@@ -10,6 +10,9 @@ import nutrientsImage from './assets/nutrients.webp';
 import portfolioImage from './assets/portfolio.webp'; 
 import blogImage from './assets/blog.webp'; 
 import deleterImage from './assets/delete.webp';
+import runningPlan from './assets/running-plan.webp'; 
+import runningPlaylist from './assets/running-playlist.webp'; 
+import tvCharacters from './assets/tv-characters.webp';
 
 
 const images = {
@@ -18,6 +21,9 @@ const images = {
   portfolio: portfolioImage,
   blog: blogImage,
   deleter: deleterImage,
+  runningPlan: runningPlan,
+  runningPlaylist: runningPlaylist,
+  tvCharacters: tvCharacters,
 };
 
 function App() {
@@ -54,6 +60,32 @@ function App() {
       link: 'https://github.com/JoeShippo/PlaylistDeleter',
       imageUrl: images.deleter,
       status: 'GitHub Only',
+    },
+    {
+      title: 'Spotify Running Playlist',
+      description: 'This web app generates a customized running playlist based on your running pace. By integrating with Spotify, it selects songs with beats per minute (BPM) that match your stride, ensuring the music keeps you motivated and in rhythm throughout your run.',
+      technologies: ['To be confirmed'],
+      link: '#',
+      imageUrl: images.runningPlaylist,
+      status: 'In Development',
+    },
+    
+    {
+      title: 'AI Running Plan Generator',
+      description: 'An intuitive web application that creates tailored running plans based on your experience level, goals, and weekly schedule. Using AI, it generates training plans that help you achieve personal running milestones, whether it\'s a 5k or a marathon.',
+      technologies: [],
+      link: '#',
+      imageUrl: images.runningPlan,
+      status: 'In Development',
+    },
+    
+    {
+      title: 'Spotify Characters Playlists',
+      description: 'Inspired by fan-favorite playlists like "Kendall Roy\'s Pre Meeting Hype Playlist," this project generates unique playlists based on top-rated TV and film characters. The app allows users to connect with the personalities and vibes of their favorite characters through handpicked music from Spotify.',
+      technologies: ['To be confirmed'],
+      link: '#',
+      imageUrl: images.tvCharacters,
+      status: 'In Development',
     },
     {
       title: 'aight.fun',

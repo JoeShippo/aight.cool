@@ -58,29 +58,36 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
                         </div>
 
                         {/* Technologies */}
+
+                        
+
                         <DialogBody className="p-0">
+                        {project.technologies.length > 0 && (
                             <div className="flex flex-wrap gap-2 mb-4">
-                                {project.technologies.map((tech, index) => (
-                                    <span
-                                        key={index}
-                                        className="px-2 py-1 text-xs font-medium text-white bg-blue-600 rounded-full"
-                                    >
-                                        {tech}
-                                    </span>
-                                ))}
+                            {project.technologies.map((tech, index) => (
+                                <span
+                                key={index}
+                                className="px-2 py-1 text-sm font-medium text-white bg-blue-600 rounded-full"
+                                >
+                                {tech}
+                                </span>
+                            ))}
                             </div>
+                        )}
 
                             {/* Description */}
                             <div className="mb-4">{project.description}</div>
                             
                         </DialogBody>
-                        <DialogFooter className="justify-start p-0">
-                            <a href={project.link} target="_blank" rel="noopener noreferrer">
-                                <Button variant="filled" size="md" color="blue" className="bg-blue-600 text-white hover:bg-blue-700">
-                                    Visit Project
-                                </Button>
-                            </a>
-                        </DialogFooter>
+                        {project.link !== '#' && (
+                            <DialogFooter className="justify-start p-0">
+                                <a href={project.link} target="_blank" rel="noopener noreferrer">
+                                    <Button variant="filled" size="md" color="blue" className="bg-blue-600 text-white hover:bg-blue-700">
+                                        Visit Project
+                                    </Button>
+                                </a>
+                            </DialogFooter>
+                        )}
                     </div>
                 </div>
             </Dialog>

@@ -53,9 +53,9 @@ const Hero = () => {
             This is my site where I showcase random <span className='line-through'>crap</span> stuff that I've created to <span className='line-through'>prove</span> show off that I <span className='line-through'>could actually be</span> am <span className='font-bold'>a Software &#x2f; Web Developer.</span>
           </Typography>
 
-          {/* <Typography variant="h6" className="text-2xl md:text-5xl font-normal text-white text-left mt-8">
-            Take a look below or <a href="facebook.com" className="inline-block border-b-4 border-dashed border-white opacity-100 transition-opacity hover:opacity-80">find out what makes me tick.</a>
-          </Typography> */}
+          <Typography variant="h6" className="text-2xl md:text-5xl font-normal text-white text-left mt-8">
+            Take a look below or <a href="#aboutSection" className="inline-block border-b-4 border-dashed border-white opacity-100 transition-opacity hover:opacity-80">find out what makes me tick.</a>
+          </Typography>
         </div>
       </div>
     </section>

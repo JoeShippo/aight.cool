@@ -110,7 +110,7 @@ const AboutSection = () => {
                         download="Joe_Shipton_CV.pdf" // Optionally, provide a custom download name for the file
                     >
                         <button className="bg-transparent hoverTealBG hover:bg-[#008080] tealText font-semibold hover:text-white py-2 px-4 border teal-border hover:border-transparent rounded">
-                        <FaDownload className='inline md:mr-3' size={20} />
+                        <FaDownload className='inline mr-3' size={20} />
                         Download My CV
                         </button>
                     </a>

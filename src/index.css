@@ -8,3 +8,10 @@
 .tealBG {
   background-color: #008080;
 }
+.teal-border {
+  border-color: #008080;
+}
+.border-aight {
+  border-width:1px;
+  border-color: rgba(30, 41, 59, 0.30);
+}

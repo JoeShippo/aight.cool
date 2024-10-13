@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Typography } from "@material-tailwind/react";
 
-import { FaGithub, FaInstagram } from 'react-icons/fa';
+import { FaGithub, FaInstagram, FaDownload } from 'react-icons/fa';
 import { BsSubstack } from "react-icons/bs";
 
 
@@ -27,9 +27,11 @@ const Footer = () => {
             <Typography as="a" href="https://www.instagram.com/hopswithjoe/" className="opacity-80 transition-opacity hover:opacity-100">
               <FaInstagram />
             </Typography>
-
             <Typography as="a" href="http://substack.com/@joeshipton" className="opacity-80 transition-opacity hover:opacity-100">
               <BsSubstack />
+            </Typography>
+            <Typography as="a" href="/JoeShiptonCV.pdf" className="opacity-80 transition-opacity hover:opacity-100">
+              <FaDownload />
             </Typography>
           </div>
         </div>

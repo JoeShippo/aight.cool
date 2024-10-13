@@ -1,5 +1,6 @@
 import React from 'react';
 import { Typography } from "@material-tailwind/react";
+import { FaDownload } from 'react-icons/fa';
 
 const thingsIKnow = [
     {
@@ -20,7 +21,7 @@ const thingsIKnow = [
     },
 ];
 
-const thingsILike = [
+const resources = [
     {
         title: "Meet the Ipsums",
         description: "Fun and themed placeholder text generators for creative projects.",
@@ -86,21 +87,33 @@ const AboutSection = () => {
                     </div>
 
                     {/* Things I Like */}
-                    <div className="w-full md:w-1/2 flex flex-col items-start md:ml-2">
+                    <div className="w-full md:w-1/2 flex flex-col items-start md:ml-2">                        
                         <Typography variant="h5" className="font-normal mt-2">
-                            Some Things I Like
+                            Some Resources I Like
                         </Typography>
-                        {thingsILike.map((thing, index) => (
+                        {resources.map((resources, index) => (
                             <div key={index} className="mt-4">
                                 <Typography variant="h6" color="gray" className='font-normal'>
-                                    {thing.title} - <a href={thing.link} rel="noreferrer" target='_blank' className='opacity-80 hover:opacity-100 hover:underline'>View</a>
+                                    {resources.title} - <a href={resources.link} rel="noreferrer" target='_blank' className='opacity-80 hover:opacity-100 hover:underline'>View</a>
                                 </Typography>
                                 <Typography variant="paragraph" color="gray">
-                                    {thing.description}
+                                    {resources.description}
                                 </Typography>
                             </div>
                         ))}
                     </div>
+                </div>
+
+                <div className="w-full pt-6 flex justify-start">
+                    <a
+                        href="/JoeShiptonCV.pdf" // Link to your PDF file in the public folder
+                        download="Joe_Shipton_CV.pdf" // Optionally, provide a custom download name for the file
+                    >
+                        <button className="bg-transparent hoverTealBG hover:bg-[#008080] tealText font-semibold hover:text-white py-2 px-4 border teal-border hover:border-transparent rounded">
+                        <FaDownload className='inline md:mr-3' size={20} />
+                        Download My CV
+                        </button>
+                    </a>
                 </div>
             </div>
         </section>

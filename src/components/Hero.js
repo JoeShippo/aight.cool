@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Typography } from "@material-tailwind/react";
-import { FaGithub, FaInstagram } from 'react-icons/fa';
+import { FaGithub, FaInstagram, FaDownload } from 'react-icons/fa';
 import { BsSubstack } from "react-icons/bs";
 
 const Hero = () => {
@@ -10,15 +10,14 @@ const Hero = () => {
       <div className="absolute top-0 w-full p-4">
         <div className="flex justify-end items-center w-full">
           <div className="flex space-x-4 mr-4 mt-4">
-            <Typography
-              as="a"
+            <div
               className="text-md font-bold uppercase opacity-100 transition-opacity hover:opacity-80 cursor-pointer"
               size={20}
               color="white"
               onClick={() => window.open("https://github.com/JoeShippo", "_blank")}
             >
               <FaGithub className='inline md:mr-1' size={24} />
-            </Typography>
+            </div>
             <div
               className="text-md font-bold uppercase opacity-100 transition-opacity hover:opacity-80 cursor-pointer"
               size={20}
@@ -34,6 +33,14 @@ const Hero = () => {
               onClick={() => window.open("http://substack.com/@joeshipton", "_blank")}
             >
               <BsSubstack className='inline md:mr-1' size={24} />
+            </div>
+            <div
+              className="text-md font-bold uppercase opacity-100 transition-opacity hover:opacity-80 cursor-pointer"
+              size={20}
+              color="white"
+              onClick={() => window.open("/JoeShiptonCV.pdf", "_blank")}
+            >
+              <FaDownload className='inline md:mr-1' size={24} />
             </div>
           </div>
         </div>

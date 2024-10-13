@@ -17,7 +17,7 @@ const thingsIKnow = [
     },
     {
         title: "Projects",
-        items: ["Websites", "Web Apps", "Wordpress", "Ecommerce", "Email Marketing"],
+        items: ["Websites", "Web Apps", "Wordpress", "e-commerce", "Email Marketing"],
     },
 ];
 
@@ -41,7 +41,7 @@ const resources = [
 
 const AboutSection = () => {
     return (
-        <section className="flex flex-col md:flex-row items-stretch " id='aboutSection'>
+        <section className="flex flex-col md:flex-row items-stretch bg-white" id='aboutSection'>
             <div className="w-full md:w-1/3 tealBG p-8 flex justify-center relative">
                 <div className="bg-white shadow-lg rounded-lg overflow-hidden w-full max-w-sm md:translate-x-1/3 z-10">
                     <div className="w-full h-full">

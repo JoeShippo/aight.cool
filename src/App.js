@@ -107,7 +107,7 @@ function App() {
     },
   ];
   return (
-    <div className="App">
+    <div className="App bg-gray-50">
       <Hero />
       <section className="container mx-auto px-4 my-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

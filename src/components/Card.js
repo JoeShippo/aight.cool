@@ -32,6 +32,7 @@ const ProjectCard = ({ title, description, technologies, link, imageUrl, status 
             src={imageUrl}
             alt={title}
             className="h-full w-full object-cover"
+            style={{maxHeight: 200,}}
           />
         </CardHeader>
         <CardBody className="p-6 flex flex-col justify-center">

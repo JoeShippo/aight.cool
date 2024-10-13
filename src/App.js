@@ -13,6 +13,7 @@ import deleterImage from './assets/delete.webp';
 import runningPlan from './assets/running-plan.webp'; 
 import runningPlaylist from './assets/running-playlist.webp'; 
 import tvCharacters from './assets/tv-characters.webp';
+import freezer from './assets/freezermate.webp';
 
 
 const images = {
@@ -24,6 +25,7 @@ const images = {
   runningPlan: runningPlan,
   runningPlaylist: runningPlaylist,
   tvCharacters: tvCharacters,
+  freezer: freezer,
 };
 
 function App() {
@@ -35,6 +37,14 @@ function App() {
       link: 'https://holidayify.aight.fun',
       imageUrl: images.holidayify,
       status: 'Under 3rd Party Review',
+    },
+    {
+      title: 'Freezer Mate',
+      description: 'FreezerMate is an e-commerce web platform designed to sell products efficiently using a modern tech stack. Built with PHP and SQL for robust server-side functionality and database management, the site ensures smooth user interactions. It features a clean, responsive design thanks to Tailwind CSS and DaisyUI, providing an intuitive and visually appealing interface. The project is managed using NPM and hosted locally during development via MAMP, ensuring a streamlined development workflow. Additionally, Stripe is integrated for secure, reliable payment processing. This project highlights my expertise in full-stack development, combining clean code, effective design, and secure transaction handling.',
+      technologies: ['PHP', 'CSS', 'JavaScript', 'SQL', 'MAMP','GIT', 'Tailwind & DaisyUI','Stripe'],
+      link: 'https://freezermate.co.uk',
+      imageUrl: images.freezer,
+      status: 'Live',
     },
     {
       title: 'Nutrient Calculator',

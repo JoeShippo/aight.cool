@@ -40,7 +40,7 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
                         <div className="flex items-center justify-between">
                             <DialogHeader className="flex flex-col items-start p-0 mb-4">
                                 {" "}
-                                <span className="px-2 py-1 text-xs font-medium text-white tealBG rounded-full">
+                                <span className="px-2 py-1 text-xs font-regular slate-800 rounded-full border-solid border-aight opacity-80 ">
                                     {project.status}
                                 </span>
                                 <Typography className="mt-2" variant="h4">
@@ -67,7 +67,7 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
                             {project.technologies.map((tech, index) => (
                                 <span
                                 key={index}
-                                className="px-2 py-1 text-sm font-medium text-white bg-blue-600 rounded-full"
+                                className="px-2 py-1 text-xs font-medium border-aight-teal tealText rounded-full"
                                 >
                                 {tech}
                                 </span>
@@ -76,13 +76,13 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
                         )}
 
                             {/* Description */}
-                            <div className="mb-4">{project.description}</div>
+                            <div className="mb-4 text-black font-normal">{project.description}</div>
                             
                         </DialogBody>
                         {project.link !== '#' && (
                             <DialogFooter className="justify-start p-0">
                                 <a href={project.link} target="_blank" rel="noopener noreferrer">
-                                    <Button variant="filled" size="md" color="blue" className="bg-blue-600 text-white hover:bg-blue-700">
+                                    <Button variant="filled" size="md" color="blue" className="tealBG text-white opacity-80 hover:opacity-100 hover:shadow-none">
                                         Visit Project
                                     </Button>
                                 </a>

@@ -15,6 +15,10 @@
   border-width:1px;
   border-color: rgba(30, 41, 59, 0.30);
 }
+.border-aight-teal {
+  border-width:1px;
+  border-color: #008080;
+}
 html {
   scroll-behavior: smooth;
 }

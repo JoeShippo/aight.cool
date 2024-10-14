@@ -77,7 +77,7 @@ function App() {
       technologies: ['To be confirmed'],
       link: '#',
       imageUrl: images.runningPlaylist,
-      status: 'In Development',
+      status: 'Under 3rd Party Review',
     },
     
     {
